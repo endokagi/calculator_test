@@ -15,3 +15,7 @@ test('1*2 = 2', () => {
 test('1/2 = 0.5', () => {
     expect(cal("divide", 1, 2)).toBe(0.5);
 });
+
+test('ERROR text', () => {
+    expect(cal("ERROR", 1, 2)).toBe('ERROR');
+});
