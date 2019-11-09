@@ -1,4 +1,4 @@
 calculator:
-  build:
-    image: calculator
-    dockerfile: dockerfile
+  build: .
+  environment:
+   - CODECOV_TOKEN=17a88593-9e7e-4dec-84cd-db9e52bbd8d3
