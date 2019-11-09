@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/endokagi/calculator_test#readme",
   "dependencies": {
+    "codecov": "^3.6.1",
     "jest": "^24.9.0"
   },
   "jest": {
